@@ -153,6 +153,9 @@ a {
     .logo {
         display: none;
     }
+    .bio-text p {
+        font-size: small;
+    }
 }
 
 
