@@ -23,13 +23,24 @@ nav {
 
 ul {
   display: flex;
+  justify-content: space-around;
   list-style-type: none;
   width: 500px;
-  justify-content: space-around;
+  font-size: 20px;
+}
+div .skill-icons {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style-type: none;
   font-size: 20px;
 }
 
-li {
+.skill-icons img {
+  margin-left: 5px;
+  height: 55px;
   text-decoration: none;
   text-decoration: underline #ff715b;
   text-decoration-style: double;
